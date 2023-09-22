@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+            android:allowBackup="true"
+            android:fullBackupContent="@xml/backup_rules"
+            tools:targetApi="31"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Fininfocom">
+
+        <activity
+                android:name=".LoginActivity"
+                android:exported="true"
+                android:label="@string/app_name">
+            <!--                android:theme="@string">-->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
+                android:name=".RecyclerViewActivity"
+                android:label="RecyclerView Activity"> <!-- Replace with your activity's label -->
+        </activity>
+    </application>
+
+
+</manifest>
