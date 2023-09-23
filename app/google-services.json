@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "20999148532",
+    "project_id": "fininfocom-bace2",
+    "storage_bucket": "fininfocom-bace2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20999148532:android:bfecfb1d7ba3c9acce1fa1",
+        "android_client_info": {
+          "package_name": "com.example.fininfocom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfqdWBikwFnfWrCIXD-nJrrdBNT7sYB_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

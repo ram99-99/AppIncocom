@@ -10,6 +10,9 @@ public class MyDataModel {
         this.age = age;
         this.city = city;
     }
+    public MyDataModel() {
+
+    }
 
     public String getName() {
         return name;

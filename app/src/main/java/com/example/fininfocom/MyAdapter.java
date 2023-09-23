@@ -4,6 +4,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -15,6 +16,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
     public MyAdapter(List<MyDataModel> dataList) {
         this.dataList = dataList;
+    }
+
+    public List<MyDataModel> getData() {
+        return dataList;
     }
 
     @NonNull
@@ -55,5 +60,4 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         dataList.addAll(newData);
         notifyDataSetChanged();
     }
-
 }
